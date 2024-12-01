@@ -1,5 +1,5 @@
 "use server";
-
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { revalidatePath } from "next/cache";
 
 import User from "../database/models/user.model";
