@@ -1,24 +1,26 @@
 {
-  "rules": {
-"@typescript-eslint/no-this-alias": [
-  "error",
-  {
-    "allowDestructuring": true,
-    "allowedNames": ["self"]
-  }
-],
-"@typescript-eslint/no-empty-function": [
-  "error",
-  {
-    "allow": [
-      "functions",
-      "getters",
-      "setters",
-      "arrowFunctions",
-      "methods",
-      "constructors"
-    ]
-  }
-],
-"prefer-spread": ["off"]}
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "parser": "babel-eslint"
+//   "rules": {
+// "@typescript-eslint/no-this-alias": [
+//   "error",
+//   {
+//     "allowDestructuring": true,
+//     "allowedNames": ["self"]
+//   }
+// ],
+// "@typescript-eslint/no-empty-function": [
+//   "error",
+//   {
+//     "allow": [
+//       "functions",
+//       "getters",
+//       "setters",
+//       "arrowFunctions",
+//       "methods",
+//       "constructors"
+//     ]
+//   }
+// ],
+// "prefer-spread": ["off"]}
 }
