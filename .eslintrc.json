@@ -1,6 +1,5 @@
 {
   "extends": ["next/core-web-vitals", "next/typescript"],
-  "parser": "babel-eslint"
 //   "rules": {
 // "@typescript-eslint/no-this-alias": [
 //   "error",
