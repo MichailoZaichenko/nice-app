@@ -1,6 +1,4 @@
 /* eslint-disable camelcase */
-// import { createClerkClient } from '@clerk/backend'
-// const clerkClient = createClerkClient({ secretKey: process.env.CLERK_SECRET_KEY })
 import { clerkClient } from "@clerk/nextjs";
 import { WebhookEvent } from "@clerk/nextjs/server";
 import { headers } from "next/headers";
